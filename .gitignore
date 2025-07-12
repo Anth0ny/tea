@@ -1,0 +1,28 @@
+# === Rust & Cargo ===
+/target
+**/*.rs.bk
+
+# === Build Artifacts ===
+**/*.exe
+**/*.dll
+**/*.so
+**/*.dylib
+
+# === Editor & OS ===
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+*.log
+
+# === Dependency Lock (optional for libraries, keep for binaries) ===
+# /Cargo.lock  # Uncomment if this is a library crate
+
+# === Test Files ===
+*.tmp
+*.bak
+*.old
+
+# === Other Generated Files ===
+*.coverage

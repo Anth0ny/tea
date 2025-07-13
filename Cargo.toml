@@ -9,3 +9,6 @@ crossterm = "0.27"
 anyhow = "1.0"
 memmap2 = "0.5"
 ropey = "1.6"
+
+[dev-dependencies]
+tempfile = "3"
